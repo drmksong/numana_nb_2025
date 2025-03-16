@@ -1,5 +1,60 @@
 # numana_nb_2025
 
+## Installation of Python on macOS
+
+### Install Homebrew
+
+1. **Open Terminal:**
+    - You can find Terminal in the Applications > Utilities folder or by searching for it using Spotlight.
+
+2. **Install Homebrew:**
+    - In Terminal, paste the following command and press Enter:
+      ```bash
+      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      ```
+    - Follow the on-screen instructions to complete the installation.
+
+### Install Python Using Homebrew
+
+1. **Update Homebrew:**
+    - In Terminal, type the following command and press Enter:
+      ```bash
+      brew update
+      ```
+
+2. **Install Python:**
+    - In Terminal, type the following command and press Enter:
+      ```bash
+      brew install python
+      ```
+
+3. **Verify Installation:**
+    - In Terminal, type the following command and press Enter:
+      ```bash
+      python3 --version
+      ```
+    - You should see the version of Python that was installed.
+
+### Install Jupyter Notebook
+
+1. **Install Jupyter Notebook:**
+    - In Terminal, type the following command and press Enter:
+      ```bash
+      pip3 install notebook
+      ```
+
+2. **Start Jupyter Notebook:**
+    - In Terminal, type the following command and press Enter:
+      ```bash
+      jupyter notebook
+      ```
+    - This will start the Jupyter Notebook server and open the interface in your default web browser.
+
+3. **Create a New Notebook:**
+    - In the Jupyter Notebook interface, click on "New" and select "Python 3".
+    - You can now start writing and running Python code in your new notebook.
+
+
 ## Installation of Python on Windows
 
 1. **Download Python:**
